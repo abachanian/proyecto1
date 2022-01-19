@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Todo 3D</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="principal">
+            <img src="./assets/banner.jpg" alt="" class="principal__img">            
+            <div class="principal__texto">
+                <h1 class="principal__texto_titulo">Todo 3D</h1>
+                <div class="principal__texto__p">
+                    <p>Impresoras 3D</p>
+                    <p>Al mejor precio</p>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <button aria-expanded="false" aria-controls="menu-list">
+                <span class="open">&#9776;</span>
+                <span class="close">&#9747;</span>
+                Menú
+            </button>
+            <ul class="menu__list">
+                <li>
+                    <a href="#impresoras">Impresoras</a>
+                </li>
+                <li>
+                    <a href="#stl">Descargar STL</a>
+                </li>
+                <li>
+                    <a href="#novedades">Novedades</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li>
+                    <a href="./sesion.html">Iniciar Sesión</a>
+                </li>
+                <li>
+                    <a href="./registracion.html">Registrarse</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="impresoras" id="impresoras">
+            <h2 class="titulo">Impresoras</h2>
+            <div class="impresoras__impresora">
+                <h3 class="titulo">Anet ET4</h3>
+                <img src="./assets/Impresoras/anet et4.png" alt="" class="impresoras__impresora__img">
+                <table class="impresoras__impresora__tabla">
+                    <tr>
+                    <th colspan="2">Detalles</th>
+                    </tr>
+                    <tr>
+                    <td>Nivelación:</td>
+                    <td>Automática.</td>
+                    </tr>
+                    <tr>
+                    <td>Cama:</td>
+                    <td>220 x 220 x 250 mm.</td>
+                    </tr>
+                    <tr>
+                    <td>Velocidad de impresión:</td>
+                    <td>60 mm/s.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. boquilla:</td>
+                    <td>250 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. cama:</td>
+                    <td>100 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Tamaño máquina:</td>
+                    <td>44 x 33 x 48 cm.</td>
+                    </tr>
+                    <tr>
+                    <td>Resolución de impresión:</td>
+                    <td>&#177; 0.1 mm.</td>
+                    </tr>
+                </table>
+                <p class="impresoras__impresora__precio">Precio: $36.000</p>
+                <button type="submit" class="impresoras__impresora__boton">
+                    Comprar
+                </button>
+            </div>
+            <div class="impresoras__impresora">
+                <h3 class="titulo">Artillery Genius Pro</h3>
+                <img src="./assets/Impresoras/artillery.png" alt="" class="impresoras__impresora__img">
+                <table class="impresoras__impresora__tabla">
+                    <tr>
+                    <th colspan="2">Detalles</th>
+                    </tr>
+                    <tr>
+                    <td>Nivelación:</td>
+                    <td>Automática.</td>
+                    </tr>
+                    <tr>
+                    <td>Cama:</td>
+                    <td>220 x 220 x 250 mm.</td>
+                    </tr>
+                    <tr>
+                    <td>Velocidad de impresión:</td>
+                    <td>60 mm/s.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. boquilla:</td>
+                    <td>240 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. cama:</td>
+                    <td>100 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Tamaño máquina:</td>
+                    <td>43 x 39 x 59 cm.</td>
+                    </tr>
+                    <tr>
+                    <td>Resolución de impresión:</td>
+                    <td>&#177; 0.1 mm.</td>
+                    </tr>
+                </table>
+                <p class="impresoras__impresora__precio">Precio: $63.000</p>
+                <button type="submit" class="impresoras__impresora__boton">
+                    Comprar
+                </button>
+            </div>
+            <div class="impresoras__impresora">
+                <h3 class="titulo">Creality CR 30</h3>
+                <img src="./assets/Impresoras/cr30.png" alt="" class="impresoras__impresora__img">
+                <table class="impresoras__impresora__tabla">
+                    <tr>
+                    <th colspan="2">Detalles</th>
+                    </tr>
+                    <tr>
+                    <td>Nivelación:</td>
+                    <td>Manual.</td>
+                    </tr>
+                    <tr>
+                    <td>Cama:</td>
+                    <td>200 x 170 mm x infinito.</td>
+                    </tr>
+                    <tr>
+                    <td>Velocidad de impresión:</td>
+                    <td>60 mm/s.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. boquilla:</td>
+                    <td>240 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. cama:</td>
+                    <td>100 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Tamaño máquina:</td>
+                    <td>53,5 x 65,6 x 41 cm.</td>
+                    </tr>
+                    <tr>
+                    <td>Resolución de impresión:</td>
+                    <td>&#177; 0.05 mm.</td>
+                    </tr>
+                </table>
+                <p class="impresoras__impresora__precio">Precio: $190.000</p>
+                <button type="submit" class="impresoras__impresora__boton">
+                    Comprar
+                </button>
+            </div>
+            <div class="impresoras__impresora">
+                <h3 class="titulo">Ender 3 Pro</h3>
+                <img src="./assets/Impresoras/Ender 3 Pro.png" alt="" class="impresoras__impresora__img">
+                <table class="impresoras__impresora__tabla">
+                    <tr>
+                    <th colspan="2">Detalles</th>
+                    </tr>
+                    <tr>
+                    <td>Nivelación:</td>
+                    <td>Manual.</td>
+                    </tr>
+                    <tr>
+                    <td>Cama:</td>
+                    <td>220 x 220 x 250 mm.</td>
+                    </tr>
+                    <tr>
+                    <td>Velocidad de impresión:</td>
+                    <td>60 mm/s.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. boquilla:</td>
+                    <td>255 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. cama:</td>
+                    <td>110 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Tamaño máquina:</td>
+                    <td>44 x 41 x 46,5 cm.</td>
+                    </tr>
+                    <tr>
+                    <td>Resolución de impresión:</td>
+                    <td>&#177; 0.05 mm.</td>
+                    </tr>
+                </table>
+                <p class="impresoras__impresora__precio">Precio: $42.000</p>
+                <button type="submit" class="impresoras__impresora__boton">
+                    Comprar
+                </button>
+            </div>
+            <div class="impresoras__impresora">
+                <h3 class="titulo">Magna Dual</h3>
+                <img src="./assets/Impresoras/magna dual.png" alt="" class="impresoras__impresora__img">
+                <table class="impresoras__impresora__tabla">
+                    <tr>
+                    <th colspan="2">Detalles</th>
+                    </tr>
+                    <tr>
+                    <td>Nivelación:</td>
+                    <td>Manual.</td>
+                    </tr>
+                    <tr>
+                    <td>Cama:</td>
+                    <td>230 x 230 x 250 mm.</td>
+                    </tr>
+                    <tr>
+                    <td>Velocidad de impresión:</td>
+                    <td>80 mm/s.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. boquilla:</td>
+                    <td>250 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. cama:</td>
+                    <td>100 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Tamaño máquina:</td>
+                    <td>50 x 57 x 50 cm.</td>
+                    </tr>
+                    <tr>
+                    <td>Resolución de impresión:</td>
+                    <td>&#177; 0.05 mm.</td>
+                    </tr>
+                </table>
+                <p class="impresoras__impresora__precio">Precio: $50.000</p>
+                <button type="submit" class="impresoras__impresora__boton">
+                    Comprar
+                </button>
+            </div>
+            <div class="impresoras__impresora">
+                <h3 class="titulo">Prusa</h3>
+                <img src="./assets/Impresoras/prusa.png" alt="" class="impresoras__impresora__img">
+                <table class="impresoras__impresora__tabla">
+                    <tr>
+                    <th colspan="2">Detalles</th>
+                    </tr>
+                    <tr>
+                    <td>Nivelación:</td>
+                    <td>Automática.</td>
+                    </tr>
+                    <tr>
+                    <td>Cama:</td>
+                    <td>220 x 210 x 210 mm.</td>
+                    </tr>
+                    <tr>
+                    <td>Velocidad de impresión:</td>
+                    <td>80 mm/s.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. boquilla:</td>
+                    <td>250 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Temperatura máx. cama:</td>
+                    <td>100 °C.</td>
+                    </tr>
+                    <tr>
+                    <td>Tamaño máquina:</td>
+                    <td>55 x 50 x 40 cm.</td>
+                    </tr>
+                    <tr>
+                    <td>Resolución de impresión:</td>
+                    <td>&#177; 0.05 mm.</td>
+                    </tr>
+                </table>
+                <p class="impresoras__impresora__precio">Precio: $235.000</p>
+                <button type="submit" class="impresoras__impresora__boton">
+                    Comprar
+                </button>
+            </div>
+        </div>
+        <div class="stl" id="stl">
+            <h2 class="stl__titulo">STL Gratis</h2>
+            <div class="stl__archivos">
+                <h3 class="descargas">Millennium Falcon</h3>
+                <img src="./assets/STL/Millennium_Falcon.jfif" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/89/e0/34/b8/4c/Falcon-prints-with-no-supports-landing-gear-deployed.stl"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Baby Yoda</h3>
+                <img src="./assets/STL/baby yoda.png" alt="" class="stl__archivos_img">
+                <a download="" href="https://www.thingiverse.com/download:7330138"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">The Mandalorian</h3>
+                <img src="./assets/STL/The Mandalorian.JPG" alt="" class="stl__archivos_img">
+                <a download="" href="https://www.thingiverse.com/download:8942793"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Clip Cable</h3>
+                <img src="./assets/STL/clip_cable.jpg" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/4e/1a/cd/30/06/cable_clip_hinge.stl"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Benchy</h3>
+                <img src="./assets/STL/Benchi.jfif" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/7d/fc/6e/33/fe/3DBenchy.stl"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Octopus</h3>
+                <img src="./assets/STL/octopus.jpg" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/c9/96/8e/93/c1/Octopus_v5.5.stl"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Holder USB</h3>
+                <img src="./assets/STL/Holder.jpg" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/dc/97/26/f6/33/USB-SD-MicroSD_Card_Holder_-_v2.0.stl"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Phone Stand</h3>
+                <img src="./assets/STL/phone stand.jpg" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/0c/60/ed/2e/5a/Phone_Stand03.STL"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Torre Eiffel</h3>
+                <img src="./assets/STL/eiffel tower.jpg" alt="" class="stl__archivos_img">
+                <a download="https://cdn.thingiverse.com/assets/8a/5f/fd/f1/51/EiffelTower_fixed.stl" href=""><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Pikachu Low Poly</h3>
+                <img src="./assets/STL/pikachu.jpg" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/80/10/f0/76/fb/pikachu_1gen_flowalistik.STL"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Protector USB</h3>
+                <img src="./assets/STL/usb protector.png" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/68/e3/ee/65/c6/ParteC.STL"><button type="submit">Descargar</button></a>
+            </div>
+            <div class="stl__archivos">
+                <h3 class="descargas">Hogwarts</h3>
+                <img src="./assets/STL/Hogwarts.jpg" alt="" class="stl__archivos_img">
+                <a download="" href="https://cdn.thingiverse.com/assets/d7/88/6b/dd/27/hogwarts.stl"><button type="submit">Descargar</button></a>
+            </div>
+        </div>
+        <div class="novedades" id="novedades">
+            <h2 class="novedades__titulo">STL Gratis</h2>
+            <a class="twitter-timeline" data-width="1000" data-height="700" data-theme="dark" href="https://twitter.com/Cults3D?ref_src=twsrc%5Etfw">Tweets by Cults3D</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="contacto" id="contacto">
+            <h2 class="titulo">Contactanos</h2>
+            <form action="" class="contacto__formulario">
+                <label for="html">Nombre:</label>
+                <input type="text" name="Nombre" id="" class="contacto__formulario__input" placeholder="Nombre">
+                <label for="html">Apellido:</label>
+                <input type="text" name="Apellido" id="" class="contacto__formulario__input" placeholder="Apellido">
+                <label for="html">Correo:</label>
+                <input type="email" name="Correo" id="" class="contacto__formulario__input" placeholder="Ingrese su correo">
+                <label for="html">Nombre:</label>
+                <input type="text" name="Nombre" id="" class="contacto__formulario__input" placeholder="Nombre">
+                <label for="html">Consulta:</label><textarea name="" id="" cols="30" rows="10" class="contacto__formulario__textarea" placeholder="Ingrese su consulta"></textarea>
+                <button type="submit" class="contacto__boton">Enviar</button>
+            </form>
+        </div>
+        <footer class="footer">
+                <div class="footer__cat1">
+                    <img src="./assets/logo.png" alt="" class="cat1__logo">
+                    <p class="cat1__p">Todo 3D © </p>
+                </div>
+                <div class="footer__cat2">
+                    <h5 class="titulo">Secciones</h5>
+                    <a href="#impresoras">Impresoras</a>
+                    <a href="#stl">Descargar STL</a>
+                    <a href="#novedades">Novedades</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="./sesion.html">Iniciar Sesión</a>
+                    <a href="./registracion.html">Registrarse</a>
+                </div>
+                <div class="footer__cat3">
+                    <h5 class="titulo">Nuestras Redes</h5>
+                    <a href="https://www.facebook.com/Cults3D/" class="categoria_3__a">
+                        <img src="./assets/icons/facebook.png" alt="" class="cat3__logo--facebook">
+                    </a>
+                    <a href="https://twitter.com/Cults3D" class="categoria_3__a">
+                        <img src="./assets/icons/twitter.png" alt="" class="cat3__logo--twitter">
+                    </a>
+                    <a href="https://www.instagram.com/abachanian/" class="categoria_3__a">
+                        <img src="./assets/icons/instagram.png" alt="" class="cat3__logo--instagram">
+                    </a>
+                    <a href="https://wa.link/73kem5" class="categoria_3__a">
+                        <img src="./assets/icons/whatsapp.png" alt="" class="cat3__logo--whatsapp">
+                    </a>
+                </div>
+        </footer>
+    </div>
+    <script>
+        const navButton = document.querySelector('button[aria-expanded]');
+        function toggleNav({target}) {
+            const expandir = target.getAttribute('aria-expanded') === "true" || false;
+            navButton.setAttribute('aria-expanded', !expandir);
+        }
+        navButton,addEventListener('click', toggleNav);
+    </script>
+</body>
+</html>

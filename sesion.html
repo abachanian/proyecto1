@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_sesion.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Todo 3D - Iniciar Sesión</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="principal">
+            <img src="./assets/banner.jpg" alt="" class="principal__img">            
+            <div class="principal__texto">
+                <h1 class="principal__texto_titulo">Todo 3D</h1>
+                <div class="principal__texto__p">
+                    <p>Impresoras 3D</p>
+                    <p>Al mejor precio</p>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <button aria-expanded="false" aria-controls="menu-list">
+                <span class="open">&#9776;</span>
+                <span class="close">&#9747;</span>
+                Menú
+            </button>
+            <ul class="menu__list">
+                <li>
+                    <a href="./index.html">Impresoras</a>
+                </li>
+                <li>
+                    <a href="./index.html">Descargar STL</a>
+                </li>
+                <li>
+                    <a href="./index.html">Novedades</a>
+                </li>
+                <li>
+                    <a href="./index.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./sesion.html">Iniciar Sesión</a>
+                </li>
+                <li>
+                    <a href="./registracion.html">Registrarse</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sesion">
+            <form action="" class="sesion__formulario">
+                <h2 class="titulo">Iniciar Sesión</h2>
+                <label for="html">Correo/Usuario:</label>
+                <input type="text" name="Correo" id="" class="sesion__formulario__input" placeholder="Ingrese su correo o usuario">
+                <label for="html">Contraseña:</label>
+                <input type="password" name="Nombre" id="" class="sesion__formulario__input" placeholder="Contraseña">
+                <button type="submit" class="sesion__boton">Iniciar Sesión</button>
+                <a href="#" class='sesion__formulario__link'>Olvidé mi password</a>
+            </form>
+        </div>
+        <footer class="footer">
+                <div class="footer__cat1">
+                    <img src="./assets/logo.png" alt="" class="cat1__logo">
+                    <p class="cat1__p">Todo 3D © </p>
+                </div>
+                <div class="footer__cat2">
+                    <h5 class="titulo">Secciones</h5>
+                    <a href="#impresoras">Impresoras</a>
+                    <a href="#stl">Descargar STL</a>
+                    <a href="#novedades">Novedades</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="./sesion.html">Iniciar Sesión</a>
+                    <a href="./registracion.html">Registrarse</a>
+                </div>
+                <div class="footer__cat3">
+                    <h5 class="titulo">Nuestras Redes</h5>
+                    <a href="https://www.facebook.com/Cults3D/" class="categoria_3__a">
+                        <img src="./assets/icons/facebook.png" alt="" class="cat3__logo--facebook">
+                    </a>
+                    <a href="https://twitter.com/Cults3D" class="categoria_3__a">
+                        <img src="./assets/icons/twitter.png" alt="" class="cat3__logo--twitter">
+                    </a>
+                    <a href="https://www.instagram.com/abachanian/" class="categoria_3__a">
+                        <img src="./assets/icons/instagram.png" alt="" class="cat3__logo--instagram">
+                    </a>
+                    <a href="https://wa.link/73kem5" class="categoria_3__a">
+                        <img src="./assets/icons/whatsapp.png" alt="" class="cat3__logo--whatsapp">
+                    </a>
+                </div>
+        </footer>
+    </div>
+    <script>
+        const navButton = document.querySelector('button[aria-expanded]');
+        function toggleNav({target}) {
+            const expandir = target.getAttribute('aria-expanded') === "true" || false;
+            navButton.setAttribute('aria-expanded', !expandir);
+        }
+        navButton,addEventListener('click', toggleNav);
+    </script>
+</body>
+</html>
